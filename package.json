@@ -1,0 +1,19 @@
+{
+  "name": "nicot-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon --inspect ./index.js localhost 5001"
+  },
+  "author": "m.urbanov",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.56.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
