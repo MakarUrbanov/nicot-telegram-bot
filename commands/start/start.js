@@ -19,8 +19,8 @@ const listenStart = (bot) => utils.onCommand(bot, 'start', (msg) => {
   bot.sendMessage(chatId, makeDynamicString(constants.helloMessage, {firstName: userName}), options);
 });
 
-const listenStartButtons = (bot, DB) => {
-  checkAvailability(bot, DB);
+const listenStartButtons = (bot) => {
+  checkAvailability(bot);
 };
 
 module.exports = {
